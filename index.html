@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/menu.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header class="header">
@@ -45,7 +47,7 @@
         <h2 class="main-title">WE MAKE COOL THINGS</h2>
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
         <div class="title-text">
             <h3 class="title">Title</h3>
             <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, assumenda quasi nobis nostrum vero deleniti debitis labore, dignissimos ratione ullam eius sunt atque cumque corporis cum praesentium explicabo consectetur earum.</p>
@@ -59,7 +61,7 @@
             <a href="#more">Saiba mais.</a>
         </div>
     </section>
-    <section class="services">
+    <section class="services" id="services">
         <div class="service seo">
             <img src="images/bolinha1.png" alt="Seo">
             <div class="info">
@@ -75,32 +77,51 @@
             </div>
         </div>
     </section>
-    <section class="projects">
-        <div class="tomatoes">
-            <a href="tomatoes#">
+    <section class="projects" id="projects">
+        <div class="project tomatoes">
+            <a href="#tomatoes">
                 <img src="images/tomatoes.jpg" alt="Tomatoes">
             </a>
         </div>
-        <div class="landscape">
+        <div class="project landscape">
             <a href="landscape">
                 <img src="images/landscape.jpg" alt="Landscape">
             </a>
         </div>
-        <div class="plants">
-            <a href="plants#">
+        <div class="project plants">
+            <a href="#plants">
                 <img src="images/plants.jpg" alt="Plants">
             </a>
         </div>
-        <div class="flowers">
-            <a href="flowers#">
+        <div class="project flowers">
+            <a href="#flowers">
                 <img src="images/flowers.jpg" alt="Flowers">
             </a>
         </div>
     </section>
-    <footer class="footer">
+    <footer class="footer" id="contact">
         <h3 class="title-agencia">Agência XYZ</h3>
-        <div class="abo-ser-pro">
-            
+        <nav class="collection">
+            <ul class="link-collection">
+                <li class="item-footer"><a href="#about">About</a></li>
+                <li class="item-footer"><a href="#services">Services</a></li>
+                <li class="item-footer"><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+
+        <div class="social">
+            <a href="">
+                <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="">
+                <i class="fab fa-twitter-square"></i>
+            </a>
+            <a href="">
+                <i class="fab fa-instagram-square"></i>
+            </a>
+            <a href="">
+                <i class="fab fa-pinterest-square"></i>
+            </a>
         </div>
     </footer>
 </body>
