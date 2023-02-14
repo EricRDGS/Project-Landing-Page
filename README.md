@@ -35,7 +35,7 @@ Users should be able to:
 
 # 📱 Mobile
 
-<img src="src/images/Screenshot-mobile.png" alt="Mobile">
+<img src="src/images/mobile.gif" alt="Mobile">
 
 
 ### 🔗 Links
