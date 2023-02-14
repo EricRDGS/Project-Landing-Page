@@ -31,7 +31,7 @@ Users should be able to:
 
 # 🖥️ Desktop
 
-<img src="src/images/Screenshot-desktop.png" alt="Desktop">
+<img src="src/images/desktop.gif" alt="Desktop">
 
 # 📱 Mobile
 
