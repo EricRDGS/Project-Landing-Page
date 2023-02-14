@@ -31,11 +31,11 @@ Users should be able to:
 
 # 🖥️ Desktop
 
-<img src="src/images/desktop.gif" alt="Desktop">
+<img src="/images/desktop.gif" alt="Desktop">
 
 # 📱 Mobile
 
-<img src="src/images/mobile.gif" alt="Mobile">
+<img src="/images/mobile.gif" alt="Mobile">
 
 
 ### 🔗 Links
